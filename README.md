@@ -1,5 +1,5 @@
 # Raspberry-Pi-Floppy-Drive-Song
-Uses C language to send certain frequencies or tones to the floppy drive
+Uses C programming language to send frequencies or tones to the floppy drive
 
 This is a cool project - if you haven't seen the floopy drive orchestras or songs, go check them out on Youtube or something, they are really cool.
 
@@ -9,7 +9,11 @@ So I decided to have a go at this project, and went to a local PC repair shop an
 
 I ended up figuring out a few things that are important in order for it to work - ground requirements, pins etc, and at one point I very nearly blew my Pi by wiring something incorrectly. I wrote a PDF step by step guide for how I managed to get this set up and running, and the main aim of this repo was to have the resources all in one place. So the C code isn't mine but I don't claim thet it is in any way.
 
-So from what I understand, the Pi has GPIO pins that can be switched between 2 values (for example: 0 and 1, or, On and Off, or,  High and Low). Easy....but I did another project where you send signals through the GPIO at certain frequencies, and transmit audio wirelessly (using a square wave if done in the most basic way). Anyway, this opened up my eyes and I realised that some GPIO pins have more than just binary values (eg: on or off). This C program has all of the Star Wars theme notes written into it as frequencies. 
+So from what I understand, the Pi has GPIO pins that can be switched between 2 values (for example: 0 and 1, or, On and Off, or,  High and Low). Easy....but I did another project where you send signals through the GPIO at certain frequencies, and transmit audio wirelessly (using a square wave if done in the most basic way). Anyway, this opened up my eyes and I realised that some GPIO pins have more than just binary values (eg: on or off). 
+
+The writer of this is a genius in my eyes, C looks like a lot more code, but it seems to have deeper access to things that are otherwise off-limits. With some Python knowledge I was able to edit the C code to suit my needs (I had to use different pins when I nearly fried my pi)
+
+This C program has all of the notes and time signatures for the Star Wars theme. 
 
 So for testing I literally just hooked up a tiny speaker to the GPIO pins that were transmitting frequencies, and got the song playing first...if you listen to it like that it is by NO means mp3 quality but the frequencies are output at certain tones, to put it simply, it plays a note by making vibrations.
 
