@@ -42,7 +42,7 @@ ALL the info on compiling the C code and executing it is in the PDF file
 Any further help needed just email me
 
 ---------------------------
-raserppsprograms:gmail.com
+raserppsprograms@gmail.com
 
 
 Heres the link to the video showing it in action:
