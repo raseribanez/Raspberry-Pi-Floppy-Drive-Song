@@ -31,8 +31,18 @@ The PDF Booklet I wrote with full steps to get this running
 
 The C source code for the song
 
+A txt file containing JUST the compile command
+
+Some resources (images and charts showing floppy pinouts and RPi pinouts)
+
 Link to the video showing the end ressult - the musical FLoppy:
 
+
+ALL the info on compiling the C code and executing it is in the PDF file
+Any further help needed just email me
+
+---------------------------
+raserppsprograms:gmail.com
 
 
 Heres the link to the video showing it in action:
@@ -43,7 +53,5 @@ https://www.youtube.com/watch?v=8nLwsowVrxU
 Ben
 
 
-NOTE
--------
-If you read this and the resources aren't here I will hopefully have it all together and uploaded within the hour
+
 
